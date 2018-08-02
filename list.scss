@@ -1,0 +1,20 @@
+// Modify list to handle fa icons
+.list {
+
+    &-fa {
+
+        li {
+            position: relative;
+            padding-left: 30px;
+
+            > .fas {
+                position: absolute;
+                left: 0; top: 5px;
+            }
+        }
+    }
+}
+
+.fas {
+    vertical-align: middle;
+}
